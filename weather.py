@@ -36,6 +36,6 @@ class WeatherFetcher:
         return {
             "temp": temp,
             "description": weather_desc,
-            "is_rainy": True,
+            "is_rainy": is_rainy,
             "is_cold": is_cold,
         }
