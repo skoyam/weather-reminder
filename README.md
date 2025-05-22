@@ -1,4 +1,9 @@
-# Weather Reminder
+<p align="center">
+  <img src="https://github.com/skoyam/weather-reminder/blob/main/docs/logo.png?raw=true" alt="Logo" width="300"/>
+</p>
+
+
+# Motivation
 
 Often times in college, I would forget to bring a jacket or umbrella if there was inclement weather. This kinda sucked because my backpack and items would get wet, and it basically ruined my whole day :(
 
@@ -39,3 +44,27 @@ MAILGUN_FROM_EMAIL = verified_mailgun_sender_email -> again verify through the s
 TARGET_EMAIL = recipient_email_address
 LOCATION = city,country_code (ex. Raleigh, Albany)
 ```
+
+## Example Usage (with Heroku Deployment)
+
+Simply running this project from the command line, it would output this:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c9847a1e-2215-4742-9bf2-8150fe06e19a" alt="CLI Output" width="400"/>
+</p>
+
+What Heroku does is that it has a job, which runs this line of code everyday at 06:00AM UTC (9:00AM EST), and that's the continous deployment aspect of this app. Replication would include creating a new job in Heroku with these specifications.
+
+<p align="center">
+  <img src="https://github.com/skoyam/weather-reminder/blob/main/docs/heroku.png?raw=true" alt="CLI Output" width="800"/>
+</p>
+
+After the weather has been parsed, an email will be sent if there is inclement weather predicted for the day as shown below:
+
+<p align="center">
+  <img src="https://github.com/skoyam/weather-reminder/blob/main/docs/email.png?raw=true" alt="CLI Output" width="600"/>
+</p>
+
+
+
+
