@@ -10,7 +10,7 @@ Often times in college, I would forget to bring a jacket or umbrella if there wa
     That's why I created Weather Reminder, a simple email messaging system that assesses the weather
     prior to you waking up and sends you a nice message letting you know how to prepare for the day!
 
-This project was mainly a way for me to leverage learning about API usage in Python and use tools such as WeatherAPI.com for retrieving real-time data about current weather around my location, MailGun for sending an email every morning before my day started to remind myself to bring my umbrella if it was raining or wear a jacket if it was less than 10 degrees Celsius (50 degrees F) outside.
+This project was mainly a way for me to leverage learning about API usage in Python and use tools such as WeatherAPI.com for retrieving real-time data about current weather around my location, MailGun leveraging email sending, and Heroku utilizing their jobs for continuous deployment.
 
 ## Features
 
